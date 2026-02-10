@@ -1,0 +1,53 @@
+{
+  "user": {
+    "id": "25030024",
+    "name": "John Smith",
+    "email": "example@example.com",
+    "phone": "+44 555 555 55"
+  },
+
+  "summary": {
+    "totalBalance": 7783.00,
+    "totalIncome": 4120.00,
+    "totalExpense": 1187.40
+  },
+
+  "transactions": [
+    {
+      "id": 1,
+      "title": "Salary",
+      "date": "2024-04-18",
+      "type": "Monthly",
+      "category": "Income",
+      "amount": 4000.00,
+      "isIncome": true
+    },
+    {
+      "id": 2,
+      "title": "Groceries",
+      "date": "2024-04-17",
+      "type": "Weekly",
+      "category": "Pantry",
+      "amount": 100.00,
+      "isIncome": false
+    },
+    {
+      "id": 3,
+      "title": "Rent",
+      "date": "2024-04-15",
+      "type": "Monthly",
+      "category": "Rent",
+      "amount": 674.40,
+      "isIncome": false
+    },
+    {
+      "id": 4,
+      "title": "Food",
+      "date": "2024-04-20",
+      "type": "Daily",
+      "category": "Dinner",
+      "amount": 70.40,
+      "isIncome": false
+    }
+  ]
+}
